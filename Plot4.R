@@ -32,7 +32,7 @@
     ##2,2
     plot(dt,Global_reactive_power,type ="l",xlab="",ylab="Global_reactive_power")
     x <-c("0.0","0.1","0.2","0.3","0.4","0.5")
-    axis(2,at=x,label=y)    
+    axis(2,at=x,label=x)    
     })
   
   dev.copy(png,"Plot4.png")
